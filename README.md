@@ -75,7 +75,8 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 * Ragefire Chasm reworked.
 * Deadmines reworked.
-* Fixed Mr. Smite's script.
+	* Fixed Mr. Smite's script.
+	
 * Wailing Caverns reworked.
 * Reworked Stockades.
 * Shadowfang Keep reworked.
