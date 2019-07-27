@@ -10,7 +10,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 * Reduced OOC mana regen of all classes.
 * Adjusted starting stats and stat progression.
-* Redcued glancing damage reduction for casters in early levels.
+* Reduced glancing damage reduction for casters in early levels.
 
 ### Global changes
 
