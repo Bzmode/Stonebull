@@ -1,4 +1,4 @@
-# Changelog 7/23/2019
+# Changelog 08/05/2019
 
 All changes were made in an attempt to better emulate Classic World of Warcraft.
 As a base we used VMaNGOS which was already very similar to Classic.
