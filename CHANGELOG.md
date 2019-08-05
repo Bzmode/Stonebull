@@ -7,6 +7,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 * Reduced OOC mana regen of all classes.
 * Adjusted starting stats and stat progression.
+* Channeling spells stop OOC regen from starting until finished casting.
 
 ### Global changes
 
@@ -21,6 +22,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 ### Creature changes
 
 * Reduced the aggro radius of all starting zone monsters.
+* Decreased creature's tendancy to use healing spells.
 * Slightly reduced armor of many creatures throughout the world.
 * Reduced the armor of many high level creatures and bosses.
 * Slightly reduced the aggro radius of all monsters in the world, including dungeons.
@@ -39,6 +41,8 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Adjusted many damaging spells throughout the game hitting too hard.
 * Lowered Maggot Eye in Tirisfal Glades' level to 10 and his HP.
 * Lowered many named creatures damage in low level areas.
+* Removed extra Galak Messenger.
+* Reduced cast rate of Marsh Inksprayers.
 
 ### Quest changes
 
@@ -46,6 +50,10 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Removed breadcrumb requirement from "The Ashenvale Hunt"
 * Removed breadcrumb requirement from "Worth Its Weight in Gold"
 * Lowered the level requirement on a few quest chains, so that you can always finish a chain you started.
+* Fixed Freedom for All Creatures quest.
+* Fixed Returning Home start npcs.
+* Fixed Sunscale Feathers for Angry Scythclaws quest.
+* Increase Oracle Crystal quest item drop rate.
 
 ### Dungeon changes
 
@@ -55,14 +63,47 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Added creatures based on video evidence.
 * Added a few missing patrols.
 
+### Stranglethorn Valley
+
+* Cleaned up Ruins of Zul'mamwe and surrounding areas.
+
+### Redridge Mountains
+
+* Added patrols.
+* Added Multicreature spawns.
+* Balanced the elite orcs in Stonewatch.
+
+### Elwynn Forest
+
+* Cleaned up creature locations.
+
 
 ### Below are the following dungeons worked on so far.
 
 * Ragefire Chasm reworked.
 * Deadmines reworked.
-* Fixed Mr. Smite's script.
+	* Fixed Mr. Smite's script.
+
 * Wailing Caverns reworked.
+	* Added immunities to Verdan the Everliving in Wailing Caverns.
+	* Added many missing patrols.
+
+* Stockades reworked.
+
 * Shadowfang Keep reworked.
+	* Decreased ghost spawn rate from Haunting Spirits curse in Shadowfang Keep.
+
+* Blackfathom Deeps reworked.
+	* Added multicreature spawns to Blackfathom Deeps.
+	* Added many missing patrols in Blackfathom Deeps.
+
+* Scarlet Monastary reworked.
+	* Added a few patrols to Scarlet Monastary.
+	* Fixed a few patrols in Scarlet Monastary.
+	* Added multicreature spawns to Armory.
+
+* Scholomance
+	* Fixed Risen Aberrations despawn in Scholomance.
 
 * Blackrock Spire
 	* Changed Blackrock Spire rend event to spawn the correct creatures.
