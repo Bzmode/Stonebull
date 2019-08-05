@@ -1,7 +1,4 @@
-# Stonebull
-A modified version of VMaNGOS with the goal to closely emulate Classic WoW.
-
-# Changelog 7/27/2019
+# Changelog 7/23/2019
 
 All changes were made in an attempt to better emulate Classic World of Warcraft.
 As a base we used VMaNGOS which was already very similar to Classic.
@@ -10,7 +7,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 * Reduced OOC mana regen of all classes.
 * Adjusted starting stats and stat progression.
-* Reduced glancing damage reduction for casters in early levels.
+* Channeling spells stop OOC regen from starting until finished casting.
 
 ### Global changes
 
@@ -21,12 +18,11 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Fixed experience values of all dungeon bosses(5.0x)
 * Added leeway to players and creatures.
 * Reduced amount of Silver Veins, Gold Veins and Truesilver veins throughout the world.
-* Increased weapon skill gain in lower levels.
 
 ### Creature changes
 
 * Reduced the aggro radius of all starting zone monsters.
-* Added getting range to some creatures who have rooting spells.
+* Decreased creature's tendancy to use healing spells.
 * Slightly reduced armor of many creatures throughout the world.
 * Reduced the armor of many high level creatures and bosses.
 * Slightly reduced the aggro radius of all monsters in the world, including dungeons.
@@ -45,10 +41,8 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Adjusted many damaging spells throughout the game hitting too hard.
 * Lowered Maggot Eye in Tirisfal Glades' level to 10 and his HP.
 * Lowered many named creatures damage in low level areas.
-* Added Shadowmaw Panther spawns.
-* Set Sludge Beast to rare rank.
-* Added missing basilisks to Blasted Lands.
-* Slightly reduced creature Lightning Bolt damage.
+* Removed extra Galak Messenger.
+* Reduced cast rate of Marsh Inksprayers.
 
 ### Quest changes
 
@@ -56,10 +50,10 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Removed breadcrumb requirement from "The Ashenvale Hunt"
 * Removed breadcrumb requirement from "Worth Its Weight in Gold"
 * Lowered the level requirement on a few quest chains, so that you can always finish a chain you started.
-* Fixed drop rate on "A Letter to Yvette" quest item drop.
-* Lowered despawn time after Pilot Wizzcrank Escort.
-* Fix Deathstalker Erland escort quest.
-
+* Fixed Freedom for All Creatures quest.
+* Fixed Returning Home start npcs.
+* Fixed Sunscale Feathers for Angry Scythclaws quest.
+* Increase Oracle Crystal quest item drop rate.
 
 ### Dungeon changes
 
@@ -68,7 +62,20 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Removed creatures based on video evidence.
 * Added creatures based on video evidence.
 * Added a few missing patrols.
-* Removed immunities from many dungeon bosses.
+
+### Stranglethorn Valley
+
+* Cleaned up Ruins of Zul'mamwe and surrounding areas.
+
+### Redridge Mountains
+
+* Added patrols.
+* Added Multicreature spawns.
+* Balanced the elite orcs in Stonewatch.
+
+### Elwynn Forest
+
+* Cleaned up creature locations.
 
 
 ### Below are the following dungeons worked on so far.
@@ -76,25 +83,33 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Ragefire Chasm reworked.
 * Deadmines reworked.
 	* Fixed Mr. Smite's script.
-	
+
 * Wailing Caverns reworked.
-* Reworked Stockades.
+	* Added immunities to Verdan the Everliving in Wailing Caverns.
+	* Added many missing patrols.
+
+* Stockades reworked.
+
 * Shadowfang Keep reworked.
-* Reworked Blackfathom Deeps.
+	* Decreased ghost spawn rate from Haunting Spirits curse in Shadowfang Keep.
 
-* Blackrock Depths
-	* Increased cooldown on flames from Ironhand Guardians near Magmus.
-	* Fixed Twilight's Hammer Ambassador's casts.
+* Blackfathom Deeps reworked.
+	* Added multicreature spawns to Blackfathom Deeps.
+	* Added many missing patrols in Blackfathom Deeps.
 
-* Stratholme
-	* Fixed a few patrols.
-	* Added longer CD to mind control blast wave
+* Scarlet Monastary reworked.
+	* Added a few patrols to Scarlet Monastary.
+	* Fixed a few patrols in Scarlet Monastary.
+	* Added multicreature spawns to Armory.
+
+* Scholomance
+	* Fixed Risen Aberrations despawn in Scholomance.
 
 * Blackrock Spire
 	* Changed Blackrock Spire rend event to spawn the correct creatures.
 	* Adjusted damage and charge of Blackhand Veterans.
-	* Fixed ogres around Urok Doomhowl.
 ##
 
 There are many other small bug fixes and changes not worth mentioning.
 All credit goes to the programmers and community members who have worked to update and maintain MaNGOS over the years.
+
