@@ -113,10 +113,10 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 ### Hillsbrad Foothills
 
-*Cleaned up Spawns.
-*Added Multicreature spawns.
-*Added a few patrols.
-*Fixed damage of Dun Garok creatures.
+* Cleaned up Spawns.
+* Added Multicreature spawns.
+* Added a few patrols.
+* Fixed damage of Dun Garok creatures.
 
 ### Arathi Highlands
 
