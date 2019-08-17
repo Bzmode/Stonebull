@@ -172,7 +172,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 	* Fixed a few patrols in Scarlet Monastary.
 	* Added multicreature spawns to Armory.
 	
-*Zul'Farrak reworked.
+* Zul'Farrak reworked.
 	* Added multicreature spawns.
 	* Cleaned up patrols.
 
