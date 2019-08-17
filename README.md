@@ -1,4 +1,4 @@
-# Changelog 08/05/2019
+# Changelog 08/16/2019
 
 All changes were made in an attempt to better emulate Classic World of Warcraft.
 As a base we used VMaNGOS which was already very similar to Classic.
@@ -8,10 +8,12 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Reduced OOC mana regen of all classes.
 * Adjusted starting stats and stat progression.
 * Channeling spells stop OOC regen from starting until finished casting.
+* Lowered hunter pet damage.
 
 ### Global changes
 
 * Reduced drop rate of bags in all starting areas.
+* Increased stealth detection against creatures.
 * Fixed graveyard selection on death to avoid sending you back to starting areas.
 * Fixed loot tables of low level chests.
 * Fixed experience values of all dungeon elites(2.5x)
@@ -23,8 +25,11 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 * Reduced the aggro radius of all starting zone monsters.
 * Decreased creature's tendancy to use healing spells.
+* Reduced damage of every rare creature.
+* Reduced overall HP and armor of all 30+ creatures by 10%.
 * Slightly reduced armor of many creatures throughout the world.
 * Reduced the armor of many high level creatures and bosses.
+* Creatures randomize gender on spawn.
 * Slightly reduced the aggro radius of all monsters in the world, including dungeons.
 * Slightly reduced the movement speed of some monsters in the starting zones.
 * Adjusted drop table and rate of grey items from starting area creatures.
@@ -34,15 +39,14 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Adjusted many creatures with healing spells cast rates and values.
 * Cleaned up over cluttered creatures in starting areas.
 * Added patrols to a few starting area creatures.
-* Removed fire resist from Kolkar Wranglers.
 * Added a patrol path for the Galak Messenger in Thousand Needles.
 * Added many vulture creatures to the Shimmering Flats.
 * Added Bloodscalp Shamans to the temple south of Nesingwary's Camp in Stranglethorn Vale.
 * Adjusted many damaging spells throughout the game hitting too hard.
-* Lowered Maggot Eye in Tirisfal Glades' level to 10 and his HP.
 * Lowered many named creatures damage in low level areas.
 * Removed extra Galak Messenger.
 * Reduced cast rate of Marsh Inksprayers.
+* Fixed random snake patrol in Orgrimmar.
 
 ### Quest changes
 
@@ -55,17 +59,15 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Fixed Sunscale Feathers for Angry Scythclaws quest.
 * Increase Oracle Crystal quest item drop rate.
 
-### Dungeon changes
+### Tirisfal Glades
 
-* Reduced damage and spell frequency of many creatures.
-* Reduced armor and HP of many creatures.
-* Removed creatures based on video evidence.
-* Added creatures based on video evidence.
-* Added a few missing patrols.
+* Fixed Foul's Rest graveyard in Tirisfal Glades.
+* Lowered Maggot Eye's level to 10 and his HP.
 
-### Stranglethorn Valley
+### Dustwallow Marsh
 
-* Cleaned up Ruins of Zul'mamwe and surrounding areas.
+* Added missing murloc camps.
+* Added missing camp fire on island.
 
 ### Redridge Mountains
 
@@ -76,6 +78,73 @@ As a base we used VMaNGOS which was already very similar to Classic.
 ### Elwynn Forest
 
 * Cleaned up creature locations.
+
+### Duskwood
+
+* Reduced damage of Mor'Ladim.
+
+### The Barrens
+
+* Cleaned up the Sludge Fen.
+* Added multicreature spawns.
+* Fixed patrols.
+* Fixed bug with ignition escort quest.
+* Increased chance to summon Verog the Dervish.
+* Adjusted Supervisor Lugwizzles patrol.
+* Give Brontus a pack of kodos and a patrol path.
+* Removed fire resist from Kolkar Wranglers.
+
+### Silverpine Forest
+
+* Cleaned up many areas.
+* Removed breadcrumb requirement from Wild Hearts quest.
+* Added extra Gnolls to The Dead Field.
+
+### Durotar
+
+* Added mounts to patrolling orc guards in starting area.
+* Added RP and patrol to the Wolfraiders.
+
+### Feralas
+
+* Added multicreature to the Gordunni Ogres.
+* Cleaned up Gordunni Ogre area.
+* Added multicreature to the Woodpaw Gnolls.
+
+### Hillsbrad Foothills
+
+*Cleaned up Spawns.
+*Added Multicreature spawns.
+*Added a few patrols.
+*Fixed damage of Dun Garok creatures.
+
+### Arathi Highlands
+
+* Increase visibility of Fozruk.
+* Adjusted Fuzruk's damage and patrol.
+* Gave Fozruk's follower Sleeby spells.
+
+### Thousand Needles
+
+* Fixed Graveyard selection on death.
+
+### Stranglethorn Vale
+
+* Lowered damage of all elite creatures.
+* Cleaned up Ruins of Zul'mamwe and surrounding areas.
+
+### Stonetalon Mountains
+
+* Cleaned up and multispawned Grimtotem taurens.
+* Tuned and cleaned the Talon Den.
+
+### Dungeon changes
+
+* Reduced damage and spell frequency of many creatures.
+* Reduced armor and HP of many creatures.
+* Removed creatures based on video evidence.
+* Added creatures based on video evidence.
+* Added a few missing patrols.
 
 
 ### Below are the following dungeons worked on so far.
@@ -89,6 +158,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 	* Added many missing patrols.
 
 * Stockades reworked.
+	* Fixed Bruegal Ironknuckle spawn in The Stockades.
 
 * Shadowfang Keep reworked.
 	* Decreased ghost spawn rate from Haunting Spirits curse in Shadowfang Keep.
@@ -101,6 +171,10 @@ As a base we used VMaNGOS which was already very similar to Classic.
 	* Added a few patrols to Scarlet Monastary.
 	* Fixed a few patrols in Scarlet Monastary.
 	* Added multicreature spawns to Armory.
+	
+*Zul'Farrak reworked.
+	* Added multicreature spawns.
+	* Cleaned up patrols.
 
 * Scholomance
 	* Fixed Risen Aberrations despawn in Scholomance.
