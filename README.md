@@ -9,6 +9,7 @@ As a base we used VMaNGOS which was already very similar to Classic.
 * Adjusted starting stats and stat progression.
 * Channeling spells stop OOC regen from starting until finished casting.
 * Lowered hunter pet damage.
+* Lowered feral form damage.
 
 ### Global changes
 
@@ -104,6 +105,8 @@ As a base we used VMaNGOS which was already very similar to Classic.
 
 * Added mounts to patrolling orc guards in starting area.
 * Added RP and patrol to the Wolfraiders.
+* Cleaned up and added multispawns to Echo Isles.
+* Fixed Voodoo Troll's spells.
 
 ### Feralas
 
